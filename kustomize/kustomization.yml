@@ -1,0 +1,10 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: argocd-stage
+
+resources:
+- app1.yml
+- app2.yml
+- app3.yml
