@@ -5,6 +5,6 @@ kind: Kustomization
 namespace: argocd-stage
 
 resources:
-#- app1.yml
+- app1.yml
 - app2.yml
 - app3.yml
